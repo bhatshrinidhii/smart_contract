@@ -12,6 +12,26 @@ Both contracts are written for Solidity **0.8.x** and demonstrate fundamental bl
 
 ---
 
+## 🔗 Wallet & Test ETH Setup
+
+For deploying and testing these contracts, MetaMask was used as the primary Ethereum wallet.
+
+🌐 MetaMask Wallet
+
+MetaMask was connected to Remix using the Injected Provider option, allowing seamless interaction with the blockchain during deployment and contract testing.
+
+💧 Test ETH (0.05 ETH from Google Cloud)
+
+To perform deposits, withdrawals, and transfers on the test network, I obtained 0.05 ETH from the Google Cloud faucet, which provides free test ETH for development purposes.
+
+This test ETH was then used for:
+
+Deploying the Ownable contract
+
+Deploying the SimpleBank contract
+
+Executing deposit/withdraw/transfer transactions inside the bank contract
+
 ## 📁 Project Structure
 
 ```
